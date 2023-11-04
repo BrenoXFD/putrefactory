@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#animationContainer {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+#animationBox {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+#wordDisplay {
+    font-size: 36px;
+    margin: 0;
+}
